@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Pizza</title>
+</head>
+<body>
+    <h1>Orden de compra</h1>
+    <a>Personaliza la pizza a tu gusto!</a>
+    <div class="form">
+         <h3>Tipo de pan</h3>
+         <select id="tipo-pan">
+            <option value="0">Tipo de pan</option>
+            <option value="25">Chicago</option>
+            <option value="15">Napolitano</option>
+            <option value="10">Romano</option>
+         </select>
+         <h3>Ingredientes</h3>
+         <a>Numero de ingredientes</a>
+         <select id="num-ingr">
+            <option value="0">3</option>
+            <option value="10">4</option>
+            <option value="20">5</option>
+            <option value="30">6</option>
+         </select>
+         <h3>Primer ingrediente</h3>
+         <select>
+            <option value=" " >Ingrediente</option>
+            <option value="Queso" >Queso</option>
+            <option value="Pepperoni" >Pepperoni</option>
+            <option value="Jamon">Jamon</option>
+            <option value="Carne" >Carne</option>
+            <option value="Albahaca" >Albahaca</option>
+            <option value="Tomate" >Tomate</option>
+            <option value="Salami">Salami</option>
+            <option value="Pimiento" >Pimiento</option>
+            <option value="Champiñones">Champiñones</option>
+         </select>
+         <h3>Segundo ingrediente</h3>
+         <select>
+            <option value=" " >Ingrediente</option>
+            <option value="Queso" >Queso</option>
+            <option value="Pepperoni" >Pepperoni</option>
+            <option value="Jamon">Jamon</option>
+            <option value="Carne" >Carne</option>
+            <option value="Albahaca" >Albahaca</option>
+            <option value="Tomate" >Tomate</option>
+            <option value="Salami">Salami</option>
+            <option value="Pimiento" >Pimiento</option>
+            <option value="Champiñones">Champiñones</option>
+         </select>
+         <h3>Tercer ingrediente</h3>
+         <select>
+            <option value=" " >Ingrediente</option>
+            <option value="Queso" >Queso</option>
+            <option value="Pepperoni" >Pepperoni</option>
+            <option value="Jamon">Jamon</option>
+            <option value="Carne" >Carne</option>
+            <option value="Albahaca" >Albahaca</option>
+            <option value="Tomate" >Tomate</option>
+            <option value="Salami">Salami</option>
+            <option value="Pimiento" >Pimiento</option>
+            <option value="Champiñones">Champiñones</option>
+         </select>
+
+         <div id="ingr-cua">
+            <h3>Cuarto ingrediente</h3>
+            <select>
+               <option value=" " >Ingrediente</option>
+               <option value="Queso" >Queso</option>
+               <option value="Pepperoni" >Pepperoni</option>
+               <option value="Jamon">Jamon</option>
+               <option value="Carne" >Carne</option>
+               <option value="Albahaca" >Albahaca</option>
+               <option value="Tomate" >Tomate</option>
+               <option value="Salami">Salami</option>
+               <option value="Pimiento" >Pimiento</option>
+               <option value="Champiñones">Champiñones</option>
+            </select>
+         </div>
+         <div id="ingr-cin">
+            <h3>Quinto ingrediente</h3>
+            <select>
+               <option value=" " >Ingrediente</option>
+               <option value="Queso" >Queso</option>
+               <option value="Pepperoni" >Pepperoni</option>
+               <option value="Jamon">Jamon</option>
+               <option value="Carne" >Carne</option>
+               <option value="Albahaca" >Albahaca</option>
+               <option value="Tomate" >Tomate</option>
+               <option value="Salami">Salami</option>
+               <option value="Pimiento" >Pimiento</option>
+               <option value="Champiñones">Champiñones</option>
+            </select>
+         </div>
+         <div id="ingr-seis">
+            <h3>Sexto ingrediente</h3>
+            <select id="ingr-seis">
+               <option value=" " >Ingrediente</option>
+               <option value="Queso" >Queso</option>
+               <option value="Pepperoni" >Pepperoni</option>
+               <option value="Jamon">Jamon</option>
+               <option value="Carne" >Carne</option>
+               <option value="Albahaca" >Albahaca</option>
+               <option value="Tomate" >Tomate</option>
+               <option value="Salami">Salami</option>
+               <option value="Pimiento" >Pimiento</option>
+               <option value="Champiñones">Champiñones</option>
+            </select>
+         </div>
+         <h3>Ingrediente Extras</h3>
+         <a><input type="checkbox" value="8" id="ext-q" class="ing-ext">Extra Queso</a>
+         <a><input type="checkbox" value="6" id="ext-p" class="ing-ext">Extra Pepperoni</a>
+         <a><input type="checkbox" value="3" id="ext-j" class="ing-ext">Extra Jamon</a>
+         <a><input type="checkbox" value="9" id="ext-c" class="ing-ext">Extra Carne</a>
+         <a><input type="checkbox" value="1" id="ext-a" class="ing-ext" >Extra Albahaca</a>
+         <a><input type="checkbox" value="5" id="ext-t" class="ing-ext">Extra Tomate</a>
+         <a><input type="checkbox" value="10" id="ext-s" class="ing-ext">Extra Salami</a>
+         <a><input type="checkbox" value="11" id="ext-pi" class="ing-ext" >Extra Pimiento</a>
+         <a><input type="checkbox" value="7" id="ext-ch" class="ing-ext" >Extra Champiñones</a>
+         <h3>Costo total</h3>
+         <input type="text" value="" id="costo-total">
+         <button>Aceptar</button>
+    </div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
