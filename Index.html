@@ -7,6 +7,7 @@
     <title>Pizza</title>
 </head>
 <body>
+   <div class="contenedor">
     <h1>Orden de compra</h1>
     <a>Personaliza la pizza a tu gusto!</a>
     <div class="form">
@@ -111,19 +112,23 @@
             </select>
          </div>
          <h3>Ingrediente Extras</h3>
-         <a><input type="checkbox" value="8" id="ext-q" class="ing-ext">Extra Queso</a>
-         <a><input type="checkbox" value="6" id="ext-p" class="ing-ext">Extra Pepperoni</a>
-         <a><input type="checkbox" value="3" id="ext-j" class="ing-ext">Extra Jamon</a>
-         <a><input type="checkbox" value="9" id="ext-c" class="ing-ext">Extra Carne</a>
-         <a><input type="checkbox" value="1" id="ext-a" class="ing-ext" >Extra Albahaca</a>
-         <a><input type="checkbox" value="5" id="ext-t" class="ing-ext">Extra Tomate</a>
-         <a><input type="checkbox" value="10" id="ext-s" class="ing-ext">Extra Salami</a>
-         <a><input type="checkbox" value="11" id="ext-pi" class="ing-ext" >Extra Pimiento</a>
-         <a><input type="checkbox" value="7" id="ext-ch" class="ing-ext" >Extra Champiñones</a>
+         <select id="ing-exr">
+            <option value="0" >Ingrediente Extra</option>
+               <option value="8" >Extra Queso</option>
+               <option value="6" >Extra Pepperoni</option>
+               <option value="3">Extra Jamon</option>
+               <option value="9" >Extra Carne</option>
+               <option value="1" >Extra Albahaca</option>
+               <option value="5" >Extra Tomate</option>
+               <option value="10">Extra Salami</option>
+               <option value="11" >Extra Pimiento</option>
+               <option value="7">Extra Champiñones</option>
+         </select>
          <h3>Costo total</h3>
          <input type="text" value="" id="costo-total">
          <button>Aceptar</button>
     </div>
+   </div>
 </body>
 </html>
 
